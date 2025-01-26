@@ -109,6 +109,9 @@ body {
 }
 .carousel .prev-btn,
 .carousel .next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -124,6 +127,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  transition: all 0.3s ease-in-out;
 }
 .carousel .prev-btn:hover,
 .carousel .next-btn:hover {
